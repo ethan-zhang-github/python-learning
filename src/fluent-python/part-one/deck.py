@@ -30,8 +30,8 @@ deck = FrenchDeck()
 for card in sorted(deck, key=spades_high):
     print(card)
 
-# print(len(deck))
-# print(deck[0])
-# print(random.choice(deck))
-# print(deck[:3])
-# print(deck[12::13])
+print(len(deck))
+print(deck[0])
+print(random.choice(deck))
+print(deck[:3])
+print(deck[12::13])
